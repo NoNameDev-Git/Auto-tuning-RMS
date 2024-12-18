@@ -2,7 +2,8 @@ cd /d "%~dp0"
 git init
 pause
 git add .
-git rm "Z GitLoad.bat"
+pause
+git rm "ZGitLoad.bat"
 pause
 git status
 pause
