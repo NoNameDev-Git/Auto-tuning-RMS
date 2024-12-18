@@ -15,13 +15,13 @@ Native Apps For Any Device From One Codebase [Embarcadero Rad Studio](https://ww
 - to compile this project(s) Rad Studio XE7 or above to is required
 ```
 ### Download on Github
-[Bruteforce User Password Rad Studio](https://github.com/NoNameDev-Git/Auto-tuning-RMS.git)
+[Auto-tuning RMS Rad Studio](https://github.com/NoNameDev-Git/Auto-tuning-RMS.git)
 
 ### Download on Yandex
-[Bruteforce User Password Rad Studio](https://disk.yandex.ru/d/tyQ7B2bctsmKwQ)
+[Auto-tuning RMS Rad Studio]([https://disk.yandex.ru/d/tyQ7B2bctsmKwQ](https://disk.yandex.ru/d/Kd4vEXdJGGtKHQ))
 
 ### Download on GoogleDrive
-[Bruteforce User Password Rad Studio](https://drive.google.com/file/d/1zJ-rNrLIiMkMmvFSqh3OvM8hcJf0Wup4/view?usp=sharing)
+[Auto-tuning RMS Rad Studio](https://drive.google.com/file/d/10mJ6MoHNjaBwM57WsM4McUxs-Uab5eSL/view?usp=drive_link)
 
 ### Are you a Delphi Developer and want to contribute?
 ##### Cool!
