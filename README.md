@@ -18,7 +18,7 @@ Native Apps For Any Device From One Codebase [Embarcadero Rad Studio](https://ww
 [Auto-tuning RMS Rad Studio](https://github.com/NoNameDev-Git/Auto-tuning-RMS.git)
 
 ### Download on Yandex
-[Auto-tuning RMS Rad Studio]([https://disk.yandex.ru/d/tyQ7B2bctsmKwQ](https://disk.yandex.ru/d/Kd4vEXdJGGtKHQ))
+[Auto-tuning RMS Rad Studio](https://disk.yandex.ru/d/Kd4vEXdJGGtKHQ)
 
 ### Download on GoogleDrive
 [Auto-tuning RMS Rad Studio](https://drive.google.com/file/d/10mJ6MoHNjaBwM57WsM4McUxs-Uab5eSL/view?usp=drive_link)
