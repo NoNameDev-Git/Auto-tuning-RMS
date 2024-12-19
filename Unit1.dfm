@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   BorderIcons = []
-  ClientHeight = 405
+  ClientHeight = 485
   ClientWidth = 274
   Color = clMenu
   TransparentColorValue = clSilver
@@ -18,18 +18,17 @@ object Form1: TForm1
   TextHeight = 13
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 386
+    Top = 466
     Width = 274
     Height = 19
     Panels = <>
-    ExplicitTop = 634
-    ExplicitWidth = 782
+    ExplicitTop = 386
   end
   object sGroupBox1: TsGroupBox
     Left = 8
     Top = 0
     Width = 258
-    Height = 377
+    Height = 457
     Color = clBtnFace
     ParentBackground = False
     ParentColor = False
@@ -136,7 +135,7 @@ object Form1: TForm1
     object sSpeedButton1: TsSpeedButton
       AlignWithMargins = True
       Left = 16
-      Top = 201
+      Top = 323
       Width = 225
       Height = 29
       Cursor = crHandPoint
@@ -151,7 +150,7 @@ object Form1: TForm1
     end
     object sSpeedButton2: TsSpeedButton
       Left = 16
-      Top = 328
+      Top = 404
       Width = 225
       Height = 38
       Cursor = crHandPoint
@@ -166,7 +165,7 @@ object Form1: TForm1
     end
     object sSpeedButton3: TsSpeedButton
       Left = 16
-      Top = 281
+      Top = 357
       Width = 225
       Height = 46
       Cursor = crHandPoint
@@ -238,9 +237,25 @@ object Form1: TForm1
       Proportional = True
       Stretch = True
     end
+    object sSpeedButton4: TsSpeedButton
+      AlignWithMargins = True
+      Left = 16
+      Top = 201
+      Width = 225
+      Height = 29
+      Cursor = crHandPoint
+      AllowAllUp = True
+      OnMouseDown = sSpeedButton4MouseDown
+      OnMouseUp = sSpeedButton4MouseUp
+      ButtonStyle = tbsTextButton
+      SkinData.CustomColor = True
+      SkinData.CustomFont = True
+      Images = sAlphaImageList1
+      ImageIndex = 0
+    end
     object Edit3: TEdit
       Left = 16
-      Top = 179
+      Top = 301
       Width = 225
       Height = 21
       Cursor = crHandPoint
@@ -248,7 +263,6 @@ object Form1: TForm1
       Alignment = taCenter
       Color = clBtnFace
       PasswordChar = '*'
-      ReadOnly = True
       TabOrder = 0
       Text = '5555'
     end
@@ -274,11 +288,11 @@ object Form1: TForm1
       Alignment = taCenter
       Color = clBtnFace
       TabOrder = 2
-      Text = 'home'
+      Text = 'Home'
     end
     object Edit4: TEdit
       Left = 16
-      Top = 253
+      Top = 255
       Width = 225
       Height = 21
       Cursor = crHandPoint
@@ -286,7 +300,7 @@ object Form1: TForm1
       Alignment = taCenter
       Color = clBtnFace
       TabOrder = 3
-      Text = 'homebook'
+      Text = 'HomeBook'
     end
     object Edit5: TEdit
       Left = 16
@@ -297,7 +311,7 @@ object Form1: TForm1
       Color = clSilver
       Enabled = False
       TabOrder = 4
-      Text = 'Server IP'
+      Text = 'Cloud Server IP'
     end
     object Edit6: TEdit
       Left = 16
@@ -308,29 +322,29 @@ object Form1: TForm1
       Color = clSilver
       Enabled = False
       TabOrder = 5
-      Text = 'User Name'
+      Text = 'Cloud User Name'
     end
     object Edit7: TEdit
       Left = 16
-      Top = 157
+      Top = 279
       Width = 225
       Height = 21
       Alignment = taCenter
       Color = clSilver
       Enabled = False
       TabOrder = 6
-      Text = 'Password'
+      Text = 'Authorization Password'
     end
     object Edit8: TEdit
       Left = 16
-      Top = 231
+      Top = 233
       Width = 225
       Height = 21
       Alignment = taCenter
       Color = clSilver
       Enabled = False
       TabOrder = 7
-      Text = 'Cloud Book'
+      Text = 'Cloud Book Name'
     end
     object sCheckBox1: TsCheckBox
       Left = 34
@@ -339,8 +353,6 @@ object Form1: TForm1
       Height = 17
       TabStop = False
       Caption = 'RMS Mini Internet-ID server'
-      Checked = True
-      State = cbChecked
       TabOrder = 8
       OnClick = sCheckBox1Click
       ImgChecked = 0
@@ -354,6 +366,8 @@ object Form1: TForm1
       Height = 17
       TabStop = False
       Caption = 'RMS Viewer Client'
+      Checked = True
+      State = cbChecked
       TabOrder = 9
       OnClick = sCheckBox2Click
       ImgChecked = 0
@@ -377,6 +391,30 @@ object Form1: TForm1
       Height = 17
       TabOrder = 11
       ShowFocus = False
+    end
+    object Edit9: TEdit
+      Left = 16
+      Top = 157
+      Width = 225
+      Height = 21
+      Alignment = taCenter
+      Color = clSilver
+      Enabled = False
+      TabOrder = 12
+      Text = 'Cloud Password'
+    end
+    object Edit10: TEdit
+      Left = 16
+      Top = 179
+      Width = 225
+      Height = 21
+      Cursor = crHandPoint
+      TabStop = False
+      Alignment = taCenter
+      Color = clBtnFace
+      PasswordChar = '*'
+      TabOrder = 13
+      Text = '2793465019'
     end
   end
   object sAlphaImageList1: TsAlphaImageList
@@ -2517,8 +2555,8 @@ object Form1: TForm1
           33307C03A3DF602E441620C0001AA05BBEFA30FD2B0000000049454E44AE4260
           82}
       end>
-    Left = 104
-    Top = 504
+    Left = 88
+    Top = 536
     Bitmap = {
       494C010100000800080001000100FFFFFFFF0400FFFFFFFFFFFFFFFF424D7600
       0000000000007600000028000000040000000100000001000400000000000400
@@ -4643,6 +4681,6 @@ object Form1: TForm1
     ThirdParty.ThirdStaticText = ' '
     ThirdParty.ThirdNativePaint = ' '
     Left = 176
-    Top = 496
+    Top = 552
   end
 end
