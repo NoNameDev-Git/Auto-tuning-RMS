@@ -6,7 +6,7 @@ This utility allows you to automatically configure RMS Internet-ID Server and Cl
 
 ### Image
 
-![Logo](https://i.postimg.cc/25QC1VzY/1111.png)
+![Logo](https://i.postimg.cc/PJg2qYzS/Auto-tuning-RMS.png)
 
 ### Installation & Deployment of the development environment
 Native Apps For Any Device From One Codebase [Embarcadero Rad Studio](https://www.embarcadero.com/ru/products/rad-studio)
